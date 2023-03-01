@@ -1,0 +1,190 @@
+body {
+  background-image: url("../images/mwangi-gatheca-qlKaN7eqay8-unsplash.jpg");
+  width: 100%;
+  height: 1100px;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: quicksand;
+  src: url(../font/Quicksand-VariableFont_wght.ttf);
+}
+
+p {
+  font-family: quicksand;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#citiesSearch {
+  display: flex;
+  justify-content: center;
+}
+
+#citiesContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#searchBar2 {
+  border-radius: 2px;
+}
+
+#search {
+  color: black;
+}
+
+.button {
+  width: 4em;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 0.5em;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#citiesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#postContainer {
+  display: flex;
+}
+
+#post {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#cityContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.superFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowFlexDirection {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexJustifyCenter {
+  display: flex;
+  justify-content: center;
+}
+
+#postText {
+  border: solid 2px white;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: left;
+}
+
+#searchText {
+  border: solid 2px white;
+  margin: 5px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.inputValue {
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#postPopulation {
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+button {
+  width: 4em;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 0.5em;
+  border: none;
+}
+
+#icon {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#indexButton {
+  color: black;
+  font-family: quicksand;
+  font-size: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkseagreen;
+}
+
+#cityBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+}
+
+#searchContainer {
+  display: flex;
+}
+
+#flexContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: left;
+  margin-top: 5px;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
+#postButton {
+  margin: 10px;
+}

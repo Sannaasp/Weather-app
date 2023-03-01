@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cities</title>
+    <link rel="stylesheet" href="css/cities.css" />
+  </head>
+  <body>
+    <nav><a href="index.html" id="indexButton">Till förstasidan</a></nav>
+    <div id="flexContainer">
+      <div id="cityBackground">
+        <div id="cityContainer">
+          <p class="search">Sök på en stad</p>
+          <div id="citiesContainer">
+            <div class="superFlex">
+              <div id="searchContainer">
+                <input
+                  class="inputValue"
+                  type="text"
+                  placeholder="Skriv in en stad"
+                />
+                <button type="submit" value="serach">
+                  <img class="icon" src="icons/search.png" alt="icon" />
+                </button>
+              </div>
+              <div id="searchText"></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="search">Lägg till en stad</p>
+        <div id="postContainer">
+          <div class="superFlex">
+            <div class="rowFlexDirection">
+              <input
+                class="inputValue"
+                id="postValue"
+                type="text"
+                placeholder="Lägg till en stad"
+              />
+              <input
+                id="postPopulation"
+                type="text"
+                placeholder="Lägg till population"
+              />
+            </div>
+            <div class="flexJustifyCenter">
+              <button type="submit" value="search" id="postButton">
+                <img class="icon" src="icons/search.png" alt="icon" />
+              </button>
+            </div>
+
+            <div id="postText"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/cities.js"></script>
+  </body>
+</html>

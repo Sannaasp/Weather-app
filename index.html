@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Global</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body id="random_images_example">
+    <header>
+      <nav id="navbar">
+        <img src="icons/Natur.png" alt="bild" />
+        <div id="navContainer">
+          <a href="weather_desc.html" id="bigCities">
+            Se storstädernas väder
+          </a>
+
+          <a href="cities.html" id="cities">Cities</a>
+        </div>
+      </nav>
+      <h1 id="title">Weather Global</h1>
+      <h2 id="downTitle">Hitta din väderort</h2>
+    </header>
+    <div id="displayContainer">
+      <div id="flexContainer">
+        <div id="container">
+          <div class="display">
+            <input
+              type="text"
+              class="inputValue"
+              placeholder="Skriv in en stad"
+            />
+
+            <button type="submit" value="search" class="button">
+              <img id="icon" src="icons/search.png" alt="icon" />
+            </button>
+          </div>
+          <div class="divContainer"></div>
+        </div>
+        <div id="oldSearchContainerFlex">
+          <div id="oldSearchContainer">
+            <div id="oldSearch"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

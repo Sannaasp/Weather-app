@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: quicksand;
+  src: url(../font/Quicksand-VariableFont_wght.ttf);
+}
+
+body {
+  width: 100%;
+  height: 1300px;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  opacity: 80%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#navContainer {
+  display: flex;
+  justify-content: right;
+}
+
+#container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px 50px 50px 50px;
+  color: white;
+  width: 400px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-size: 5em;
+  font-family: quicksand;
+  letter-spacing: 8px;
+  position: relative;
+  animation: text 3s 1;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#downTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: quicksand;
+}
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
+  50% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  45% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+}
+
+input[type="text"] {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  border: none;
+}
+
+.button {
+  width: 4em;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 0.5em;
+  border: none;
+}
+
+#icon {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 50px;
+  font-family: quicksand;
+}
+
+.temperatureText {
+  font-family: quicksand;
+  font-size: 30px;
+}
+
+.celsiusText {
+  font-family: quicksand;
+}
+
+.desc {
+  font-family: quicksand;
+  font-size: 30px;
+}
+
+.wind {
+  font-family: quicksand;
+  font-size: 30px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  opacity: 100%;
+  color: white;
+  font-size: 20%;
+}
+
+.weatherContainer {
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#displayContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.temperatureText {
+  font-size: 40px;
+}
+
+.celsiusText {
+  font-size: 30px;
+}
+
+.temperatureFlex {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  opacity: 100%;
+}
+
+#bigCities {
+  font-size: 20px;
+  font-family: quicksand;
+  margin: 30px;
+  color: darkgreen;
+}
+
+#cities {
+  margin: 30px;
+  color: darkgreen;
+  font-family: quicksand;
+  font-size: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkseagreen;
+  font-size: 30px;
+}
+
+#iconSize {
+  font-size: 100px;
+}
+
+#divBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  height: 15vh;
+  width: 15vh;
+}
+
+.temperatureTextSecond {
+  font-size: 30px;
+  font-family: quicksand;
+}
+
+.celciusTextSecond {
+  font-size: 30px;
+  font-family: quicksand;
+}
+
+#searchContainer {
+  display: flex;
+}
+
+#flexContainer {
+  flex-direction: row;
+}
+
+#oldSearch ol li {
+  list-style-type: none;
+}
+
+#oldSearch {
+  padding-top: 5px;
+  font-family: quicksand;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.oldSearchText {
+  font-family: quicksand;
+  font-size: 20px;
+  padding: 15px;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+#oldSearchContainerFlex {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  border-radius: 10px;
+}

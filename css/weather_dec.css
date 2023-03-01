@@ -1,0 +1,30 @@
+body {
+  background-image: url("../images/mwangi-gatheca-qlKaN7eqay8-unsplash.jpg");
+}
+
+.name {
+  font-size: 50px;
+  font-family: quicksand;
+}
+
+#divBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#backButton {
+  font-size: 20px;
+  padding: 50px;
+  font-family: quicksand;
+  background-color: darkgreen;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
+#myLine {
+  min-height: 250px;
+  background-color: white;
+  width: 100%;
+}

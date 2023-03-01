@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather description</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/weather_dec.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css"
+    />
+  </head>
+  <body id="random_images_example">
+    <header>
+      <nav>
+        <a href="index.html" id="backButton">Till förstasidan</a>
+      </nav>
+    </header>
+    <div id="divBox">
+      <div class="firstRow divContainer"></div>
+      <div class="secondRow divContainer"></div>
+    </div>
+    <div>
+      <canvas id="myLine"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/weather_desc.js"></script>
+  </body>
+</html>
